@@ -1,0 +1,24 @@
+# Virtual Environments (Aapke teeno folders)
+.venv/
+myenv/
+venv/
+ENV/
+env/
+
+# Python compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment secrets & sensitive data
+.env
+*.env
+college.sql
+
+# Local database (agar kabhi sqlite use ho)
+*.sqlite3
+db.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
